@@ -3,17 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
     <title>Norris</title>
   </head>
   <body>
-    <p id="chuckSays">
-      Chuck says...
-    </p>
-    <button type="button" id="refreshQuote">Another Joke</button>
-    <form>
-      <input type="hidden" value="animal" id="categoryInput" />
-      <button type="submit" id="submitForm">Switch to Animal Category</button>
-    </form>
+    <div class="header">
+      <h1>Chuck.JS</h1>
+    </div>
+    <div class="container">
+      <p id="chuckSays">
+        Chuck says...
+      </p>
+      <button type="button" id="refreshQuote">Another Joke</button>
+      <form>
+        <input type="text" value="animal" id="categoryInput" />
+        <button type="submit" id="submitForm">Submit Category</button>
+      </form>
+    </div>
+
+    <div class="foot">
+      <footer>
+        <p id="ftr">Website created by: Patrick Furtak</p>
+      </footer>
+      <a id="git" href="https://www.github.com/pfurtak"
+        ><img src="images/GitHub-Mark-Light-32px.png" alt="" srcset=""
+      /></a>
+    </div>
   </body>
   <script src="/scripts/get.js"></script>
   <script src="/scripts/scripts.js"></script>
