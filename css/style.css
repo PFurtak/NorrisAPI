@@ -10,8 +10,8 @@
   background-color: #3a3a4a;
   font-size: 30px;
   font-family: 'Quicksand', sans-serif;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   max-width: 100%;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -93,4 +93,10 @@ button:active {
   margin-right: auto;
   margin-top: 50px;
   max-width: 100%;
+}
+
+select {
+  background-color: white;
+  width: 75px;
+  height: 27px;
 }
